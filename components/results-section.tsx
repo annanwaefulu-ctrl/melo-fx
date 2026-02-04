@@ -30,7 +30,7 @@ export function ResultsSection() {
 
         {/* YouTube Shorts */}
         <StaggerContainer delay={0.2} staggerChildren={0.1}>
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
             {youtubeVideos.map((url, i) => (
               <FadeIn key={i} direction="up">
                 <div className="relative w-full aspect-[9/16] rounded-2xl overflow-hidden border-2 border-primary/40 hover:border-primary transition">
