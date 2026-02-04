@@ -80,7 +80,7 @@ export function BenefitsSection() {
 
         {/* Benefits Cards - Grid Layout */}
         <StaggerContainer delay={0.2} staggerChildren={0.1}>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-5 md:pb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-5 md:pb-12">
             {benefits.map((benefit) => {
               return (
                 <FadeIn key={benefit.id} direction="up">
